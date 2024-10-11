@@ -1,0 +1,50 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ['./App.{js,jsx,ts,tsx}', './src/**/*.{js,jsx,ts,tsx}'],
+  corePlugins: {},
+  theme: {
+    extend: {
+      colors: {
+        primary: '#ff5722',
+        alpha: '#ff5722',
+        Blue: '#617A8C',
+        Light_Blue_1: '#7DA0C3',
+        Light_Blue_2: '#DBE2E9',
+        Dark_Blue: '#2D3D4D',
+        Red: '#E7202C',
+        Light_Red_1: '#E7202C',
+        Light_Red_2: '#FFE3E5',
+        Dark_Red: '#AB0610',
+        Green: '#6DDB17',
+        Light_Green: '#C8FE9F',
+        Light_Green_2: '#E8FFD6',
+        Dark_Green: '#3A8402',
+        Black: '#1F1F1F',
+        White: '#FFFFFF',
+        Light_Gray_1: '#BFBFBF',
+        Light_Gray_2: '#D6D6D6',
+        Medium_Gray_1: '#747379',
+        Medium_Gray_2: '#ADABB6',
+        Dark_Gray_1: '#575757',
+        Dark_Gray_2: '#353535',
+      },
+      fontFamily: {
+        inter: ['inter'],
+      },
+      screens: {
+        '3xl': '1600px',
+      },
+      fontSize: {
+        H1_Headings: ['28px', {lineHeight: '33.89px', fontWeight: 600}],
+        H2_Subheadings: ['20px', {lineHeight: '24.2px', fontWeight: 400}],
+        H3_Body: ['14px', {lineHeight: '16.94px', fontWeight: 600}],
+        'H4_Subtext ': ['12px', {lineHeight: '14.52px', fontWeight: 500}],
+        KPI_Numbers: ['90px', {lineHeight: '108.92px', fontWeight: 600}],
+        KPI_Label: ['20px', {lineHeight: '24.2px', fontWeight: 400}],
+        KPI_Subtext: ['10px', {lineHeight: '12.1px', fontWeight: 400}],
+        KPI_Subtext_medium: ['10px', {lineHeight: '12.1px', fontWeight: 500}],
+      },
+    },
+  },
+  plugins: [],
+};

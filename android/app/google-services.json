@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "873091573823",
+    "project_id": "safeflow-993c3",
+    "storage_bucket": "safeflow-993c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873091573823:android:e02508abc3755053fcb08a",
+        "android_client_info": {
+          "package_name": "com.test4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRzb0ztlV6n4FkAYNVpT0igXjhxRvGWxg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
